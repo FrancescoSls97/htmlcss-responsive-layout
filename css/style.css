@@ -59,3 +59,14 @@ main {
     }
   }
 }
+
+/* Desktop Responsive */
+
+@media screen and (min-width: 992px) {
+  header {
+    width: 75%;
+    .title {
+      text-align: left;
+    }
+  }
+}
