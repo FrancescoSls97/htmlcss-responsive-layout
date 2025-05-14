@@ -25,6 +25,10 @@ h3 {
   padding: 1rem;
 }
 
+ul {
+  list-style: none;
+}
+
 /* Elements Stile */
 
 header {
@@ -61,11 +65,24 @@ main {
 
   .in_breve {
     background-color: #ffffff;
+    li {
+      padding: 0.5rem;
+    }
+  }
+  .socials {
     ul {
-      list-style: none;
-      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
       li {
+        margin-top: 1rem;
         padding: 0.5rem;
+        background-color: #ffffff;
+        border-radius: 50%;
+        text-decoration: none;
+        color: black;
+        span {
+          display: none;
+        }
       }
     }
   }
@@ -92,8 +109,16 @@ main {
         }
       }
     }
-  }
-}
+
+    .socials{
+      ul{
+        li {
+          padding-right: 2rem;
+          padding-left: 2rem;
+          border-radius: 85%;
+        }
+      }
+    }
 
 /* Desktop Responsive */
 
@@ -111,5 +136,3 @@ main {
         font-size: 1.8rem;
       }
     }
-  }
-}
