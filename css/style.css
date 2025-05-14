@@ -25,7 +25,7 @@ header {
     font-style: normal;
     color: #ff9614;
     text-align: center;
-    padding: 1rem;
+    padding: 0.5rem;
     text-shadow: grey 1px 1px;
   }
 }
@@ -43,6 +43,19 @@ main {
   .category {
     h2 {
       color: #4e3969;
+    }
+  }
+}
+
+/* Responsive Rules */
+
+/*Tablet Responsive */
+
+@media screen and (min-width: 768px) {
+  header {
+    width: 85%;
+    .title {
+      text-align: left;
     }
   }
 }
