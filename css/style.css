@@ -29,3 +29,20 @@ header {
     text-shadow: grey 1px 1px;
   }
 }
+
+main {
+  background-color: #f6f5f3;
+
+  #site_main {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+  .category {
+    h2 {
+      color: #4e3969;
+    }
+  }
+}
