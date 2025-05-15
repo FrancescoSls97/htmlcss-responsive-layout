@@ -13,6 +13,12 @@
   margin: 0 auto;
 }
 
+.container_sm {
+  width: 30%;
+  max-width: 425px;
+  margin: 0 auto;
+}
+
 body {
   background-color: #f6f5f3;
 }
@@ -73,13 +79,20 @@ main {
     ul {
       display: flex;
       justify-content: space-between;
+      margin-top: 1rem;
       li {
         margin-top: 1rem;
-        padding: 0.5rem;
-        background-color: #ffffff;
-        border-radius: 50%;
-        text-decoration: none;
-        color: black;
+        a {
+          text-decoration: none;
+          color: black;
+          background-color: #ffffff;
+          padding: 1rem;
+          border-radius: 50%;
+        }
+
+        i {
+          display: inline;
+        }
         span {
           display: none;
         }
@@ -110,15 +123,17 @@ main {
       }
     }
 
-    .socials{
-      ul{
+    .socials {
+      ul {
         li {
-          padding-right: 2rem;
-          padding-left: 2rem;
-          border-radius: 85%;
+          a {
+            border-radius: 30%;
+          }
         }
       }
     }
+  }
+}
 
 /* Desktop Responsive */
 
@@ -136,3 +151,18 @@ main {
         font-size: 1.8rem;
       }
     }
+
+    .socials {
+      ul {
+        li {
+          a {
+            border-radius: 10%;
+            span {
+              display: inline;
+            }
+          }
+        }
+      }
+    }
+  }
+}
